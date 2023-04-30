@@ -1,135 +1,91 @@
-![hero](example/hero.png)
+# React & TailwindCSS Portfolio - With Dark Mode
 
-# Portfolio using React.js and Chakra UI
+A simple portfolio starter theme built with React and Tailwind CSS. This is the React version of [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio).
 
-This portfolio is built using React.js and Chakra UI. It allows you to quickly create and customize your portfolio website using markdown files.
+![React-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/146666086-28e88beb-c2f0-431f-adfb-2396d8f64c80.png)
 
-|    ![experience](example/Experience.gif)    | ![projects](example/Projects.gif) |
-| :-----------------------------------------: | :-------------------------------: |
-|       Document your work experiences        |    Showcase your best projects    |
-| ![otherprojects](example/OtherProjects.gif) |   ![mobile](example/Mobile.gif)   |
-|        Include your smaller projects        |     Mobile-responsive design      |
+## Demo URL
 
-## Getting Started
+[https://react-tailwindcss-portfolio.netlify.app](https://react-tailwindcss-portfolio.netlify.app)
 
-To get started with development, you can use the following commands:
+## Features
+
+-   [React v18](https://reactjs.org) with [React Router v6](https://reactrouter.com)
+-   [Tailwind CSS v3](https://tailwindcss.com)
+-   Context API For State Management
+-   Custom Hooks
+-   Unit Testing
+-   Framer Motion transitions & animations
+-   Reusable components
+-   Dark mode
+-   Projects filter by category
+-   Projects filter by search
+-   Smooth scroll
+-   Counter
+-   Dynamic forms
+-   Back to top button
+-   Download file button
+-   Simple and responsive design
+
+### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
+
+## Setup
+
+1. Make sure you have Node JS installed. If you don't have it:
+
+-   [Download it from nodejs.org](https://nodejs.org)
+-   [Install it using NVM ](https://github.com/nvm-sh/nvm)
+-   If you're on Mac, Homebrew is a good option too:
 
 ```
-# Install dependencies
-yarn install
+brew install node
+```
 
-# Start the development server
+2. Clone the repo:
+
+```
+git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
+```
+
+3. Open the project folder:
+
+```
+cd react-tailwindcss-portfolio
+```
+
+4. Install packages and dependencies:
+
+```
+yarn
+```
+
+4. NOTE: If you don't have yarn installed, you can install it globally using npm:
+
+```
+npm install --global yarn
+```
+
+5. Start a local dev server at `http://localhost:3000`:
+
+```
 yarn start
-
-# Build the static files
-yarn build
 ```
 
-After running `yarn start`, your website should be available at `http://localhost:3000`.
-
-## Site Name
-
-To edit the site name, go to `public/index.html` and change the `<title>`
+6. ##### Run tests:
 
 ```
-<title>Site Name</title>
+yarn test
 ```
 
-## Editing Content
+## Notes
 
-To edit the content on your website, refer to the markdown files located in the `public/content` folder.
+-   Always run `yarn install` after pulling new changes
+-   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
+-   Coming Soon [I'll be doing a screencast](https://www.youtube.com/realstoman). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
+-   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
+-   Images from [Unsplash](https://unsplash.com)
+-   Feel free to use it as your own portfolio
+-   Contributions are welcome
 
-### Profile.md
-
-```
-## Header
-- Hi, my name is ______.
-- I'm a ______.
-- Short Description Here.
-
-## About
-Write your "About" section here.
-
-## Contact
-Write your "Contact" section here.
-- LinkedIn: https://linkedin.com/in/username
-- GitHub: https://github.com/username
-- Email: username@gmail.com
-
-## Logo
-- EB
-```
-
-### ExperienceTags.md and ProjectsTags.md
-
-```
-Category 1
-Category 2
-Category 3
-```
-
-### Experience.md
-
-To edit your work experience, update the `Experience.md` file with the following format:
-
-```
-## Company Name
-- *Role* | Period
-- ![image_name](../assets/image_name.png)
-- Tags: Work
-- Badges:
-  - BadgeContent [badge_colour]
-- List Items:
-  - Point 1
-  - Point 2
-```
-
-### Projects.md
-
-To edit your projects, update the `Projects.md` file with the following format:
-
-```
-## Project Name
-Description
-- ![image_name](../assets/image_name.png)
-- Tags: WebDev
-- Badges:
-  - BadgeContent [badge_colour]
-- Buttons:
-  - ButtonContent [button_link]
-```
-
-### OtherProjects.md
-
-To edit other projects or items, update the `OtherProjects.md` file with the following format:
-
-```
-## Project Name
-Description
-- Tags: WebDev
-- Badges:
-  - BadgeContent [badge_colour]
-- Buttons:
-  - ButtonContent [button_link]
-```
-
-## Colour Theme
-
-You can choose from 10 different colours provided by Chakra UI. Modify the `color` variable in the `App.js` file located in the `src` folder.
-
-```
-// Available Colours:
-// blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
-
-const color = "pink";
-```
-
-## Customizing Design
-
-You can customize the design of your website by modifying the `theme.js` file located in the `src` folder. Refer to the Chakra UI documentation for more information on how to customize your theme.
-
-## Usage
-
-You may use this template for your own portfolio as long as you give me proper credit by linking back to my profile.
-
-For more details on hosting this site, you may refer to [A Step-by-Step Guide: Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+### License
+[MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)
