@@ -2,6 +2,7 @@
 	"name": "react-tailwindcss-portfolio",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://Meekz-h.github.io/portfolio",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
@@ -20,6 +21,8 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts --openssl-legacy-provider start",
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
@@ -48,6 +51,7 @@
 		"@tailwindcss/forms": "^0.5.2",
 		"@testing-library/dom": "^8.20.0",
 		"autoprefixer": "^10.4.7",
+		"gh-pages": "^5.0.0",
 		"postcss": "^8.4.21",
 		"tailwindcss": "^3.0.24"
 	}
