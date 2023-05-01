@@ -9,19 +9,16 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
   mongodb,
-  git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
+  carcar,
   tripguide,
+  tracker,
   threejs,
+  caloriesplanner,
+
 } from "../assets";
 
 export const navLinks = [
@@ -113,7 +110,7 @@ const projects = [
   {
     name: "CarCar",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application designed for auto sales and management",
     tags: [
       {
         name: "react",
@@ -128,13 +125,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: carcar,
+    source_code_link: "https://gitlab.com/micohernandez/car-car",
   },
   {
     name: "Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to track tasks",
     tags: [
       {
         name: "django",
@@ -149,13 +146,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tracker,
+    source_code_link: "https://gitlab.com/micohernandez/project-alpha-apr",
   },
   {
     name: "CaloriesPlanner",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An application designed to help user's track their daily calorie goals",
     tags: [
       {
         name: "react redux",
@@ -170,8 +167,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: caloriesplanner,
+    source_code_link: "https://gitlab.com/dangaritaho/module3-project-gamma",
   },
 ];
 
