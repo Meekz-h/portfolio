@@ -4,21 +4,28 @@ import {
   creator,
   web,
   javascript,
+  typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
+  nodejs,
   mongodb,
+  git,
+  figma,
   docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
   carrent,
   jobit,
-  carcar,
   tripguide,
-  tracker,
   threejs,
+  carcar,
+  tracker,
   caloriesplanner,
-
 } from "../assets";
 
 export const navLinks = [
@@ -30,10 +37,6 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
 ];
 
 const services = [
@@ -42,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Fullstack Developer",
+    title: "Frontend Design",
     icon: mobile,
   },
   {
@@ -99,18 +102,16 @@ const technologies = [
 ];
 
 const experiences = [
-
 ];
 
 const testimonials = [
-
 ];
 
 const projects = [
   {
     name: "CarCar",
     description:
-      "Web application designed for auto sales and management",
+      "Web application designed for auto sales and management.",
     tags: [
       {
         name: "react",
@@ -138,7 +139,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "SQLite",
+        name: "SQL",
         color: "green-text-gradient",
       },
       {
@@ -152,7 +153,7 @@ const projects = [
   {
     name: "CaloriesPlanner",
     description:
-      "An application designed to help user's track their daily calorie goals",
+      "Web applicaiton designed to help user's track their daily calories and achieve their goals",
     tags: [
       {
         name: "react redux",
