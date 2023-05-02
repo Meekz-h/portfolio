@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  postgreSQL,
   javascript,
   typescript,
   html,
@@ -92,26 +93,27 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgreSQL,
   },
 ];
 
-const experiences = [
-];
+const experiences = [];
 
-const testimonials = [
-];
+const testimonials = [];
 
 const projects = [
   {
     name: "CarCar",
-    description:
-      "Web application designed for auto sales and management.",
+    description: "Web application designed for auto sales and management.",
     tags: [
       {
         name: "react",
@@ -131,8 +133,7 @@ const projects = [
   },
   {
     name: "Tracker",
-    description:
-      "Web application that enables users to track tasks",
+    description: "Web application that enables users to track tasks",
     tags: [
       {
         name: "django",
