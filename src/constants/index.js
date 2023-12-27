@@ -27,6 +27,7 @@ import {
   carcar,
   tracker,
   caloriesplanner,
+  luatsubachlan,
 } from "../assets";
 
 export const navLinks = [
@@ -171,6 +172,26 @@ const projects = [
     ],
     image: caloriesplanner,
     source_code_link: "https://gitlab.com/dangaritaho/module3-project-gamma",
+  },
+  {
+    name: "LuatSuBachlan",
+    description: "Web application designed for legal cases in the vietnamese community",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: luatsubachlan,
+    source_code_link: "https://github.com/Meekz-h/luatsubachlan",
   },
 ];
 
